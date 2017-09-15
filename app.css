@@ -1,15 +1,55 @@
+:root {
+  --color-dark: #444;
+  --color-light: #ddd;
+}
+
 * {
   box-sizing: border-box;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 10px;
-  width: 100%;
-  max-width: 800px;
+html {
+  font-size: 62.5%;
 }
 
-.avatar {
+body {
+  color: var(--color-dark);
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.Container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.Avatar {
   width: 100%;
   max-width: 320px;
+}
+
+.TalkList {
+  position: relative;
+}
+
+.TalkList::before {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  content: attr(data-year);
+  color: var(--color-light);
+  font-size: 2em;
+}
+
+.TalkList::after {
+  position: absolute;
+  z-index: -1;
+  top: 3em;
+  right: 2em;
+  content: "";
+  border-right: dashed 3px var(--color-light);
+  height: calc(100% - 3em);
 }
