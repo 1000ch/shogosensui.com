@@ -30,6 +30,17 @@ body {
   max-width: 320px;
 }
 
+.AccountList {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.AccountList img {
+  width: 48px;
+  height: 48px;
+}
+
 .TalkList {
   position: relative;
 }
