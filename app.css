@@ -26,8 +26,8 @@ body {
 }
 
 .Avatar {
-  width: 100%;
-  max-width: 320px;
+  width: 240px;
+  height: 240px;
 }
 
 .AccountList {
@@ -44,6 +44,7 @@ body {
 
 .TalkList {
   position: relative;
+  padding-left: 2em;
 }
 
 .TalkList::before {
@@ -64,4 +65,8 @@ body {
   content: "";
   border-right: dashed 3px var(--color-light);
   height: calc(100% - 3em);
+}
+
+.BookList {
+  padding-left: 2em;
 }
