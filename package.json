@@ -1,0 +1,7 @@
+{
+  "name": "shogosensui.com",
+  "private": true,
+  "scripts": {
+    "test": "echo shogosensui.com"
+  }
+}
