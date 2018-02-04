@@ -14,13 +14,13 @@ html {
 body {
   color: var(--color-dark);
   font-family: "Noto Sans", sans-serif;
-  font-size: 1.6rem;
+  font-size: 2rem;
   line-height: 1.6;
 }
 
 .Container {
   width: 100%;
-  max-width: 800px;
+  max-width: 640px;
   margin: 0 auto;
   padding: 10px;
 }
@@ -28,6 +28,14 @@ body {
 .Avatar {
   width: 240px;
   height: 240px;
+}
+
+@media (min-width: 540px) {
+  .Avatar {
+    float: right;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 
 .AccountList {
