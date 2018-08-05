@@ -5,8 +5,8 @@
     "test": "stylelint public/*.css"
   },
   "devDependencies": {
-    "stylelint": "^8.4.0",
-    "stylelint-config-standard": "^18.0.0"
+    "stylelint": "^9.4.0",
+    "stylelint-config-standard": "^18.2.0"
   },
   "stylelint": {
     "extends": "stylelint-config-standard"
