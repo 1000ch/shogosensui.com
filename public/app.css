@@ -35,8 +35,8 @@ body {
 @media (min-width: 540px) {
   .Avatar {
     float: right;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
+    margin-left: 4rem;
+    margin-bottom: 4rem;
   }
 }
 
