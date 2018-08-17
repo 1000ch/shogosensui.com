@@ -26,8 +26,8 @@ body {
 }
 
 .Avatar {
-  width: 240px;
-  height: 240px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -50,6 +50,10 @@ body {
   margin: 4px;
   width: 32px;
   height: 32px;
+}
+
+.MemberList {
+  padding-left: 2rem;
 }
 
 .TalkList {
