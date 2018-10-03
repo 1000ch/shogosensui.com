@@ -68,7 +68,7 @@ body {
 .TalkList::before {
   position: absolute;
   z-index: -1;
-  top: 0;
+  top: -0.5em;
   right: 0;
   content: attr(data-year);
   color: var(--color-light);
@@ -78,11 +78,11 @@ body {
 .TalkList::after {
   position: absolute;
   z-index: -1;
-  top: 3em;
+  top: 2em;
   right: 2em;
   content: "";
   border-right: dashed 3px var(--color-light);
-  height: calc(100% - 3em);
+  height: calc(100% - 2em);
 }
 
 .BookList {
