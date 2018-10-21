@@ -53,12 +53,14 @@ body {
 }
 
 .MemberList {
-  padding-left: 2rem;
+  padding-left: 0;
+  list-style-type: none;
 }
 
 .TalkList {
   position: relative;
-  padding-left: 2rem;
+  padding-left: 0;
+  list-style-type: none;
 }
 
 .TalkList + .TalkList {
@@ -86,5 +88,6 @@ body {
 }
 
 .BookList {
-  padding-left: 2rem;
+  padding-left: 0;
+  list-style-type: none;
 }
