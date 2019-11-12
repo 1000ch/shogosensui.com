@@ -2,9 +2,11 @@
   "name": "shogosensui.com",
   "private": true,
   "scripts": {
-    "test": "stylelint public/*.css"
+    "test": "stylelint public/*.css",
+    "lh": "lighthousebot"
   },
   "devDependencies": {
+    "lighthousebot": "git+https://github.com/GoogleChromeLabs/lighthousebot.git",
     "stylelint": "^9.4.0",
     "stylelint-config-standard": "^18.2.0"
   },
