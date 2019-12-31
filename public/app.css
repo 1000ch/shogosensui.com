@@ -3,7 +3,9 @@
   --color-light: #ddd;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -12,17 +14,28 @@ html {
 }
 
 body {
+  margin: 0;
   color: var(--color-dark);
   font-family: "Noto Sans", sans-serif;
   font-size: 1.6rem;
   line-height: 1.6;
 }
 
+ul[class],
+ol[class] {
+  padding: 0;
+  list-style: none;
+}
+
+li time {
+  margin-right: 4px;
+}
+
 .Container {
   width: 100%;
   max-width: 640px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 16px;
 }
 
 .Avatar {
@@ -35,15 +48,13 @@ body {
 @media (min-width: 540px) {
   .Avatar {
     float: right;
-    margin-left: 4rem;
-    margin-bottom: 4rem;
+    margin-left: 32px;
+    margin-bottom: 32px;
   }
 }
 
 .AccountList {
   display: flex;
-  list-style-type: none;
-  padding-left: 0;
 }
 
 .AccountList img {
@@ -52,24 +63,12 @@ body {
   height: 32px;
 }
 
-.ContributionList {
-  padding-left: 0;
-  list-style-type: none;
-}
-
-.MemberList {
-  padding-left: 0;
-  list-style-type: none;
-}
-
 .TalkList {
   position: relative;
-  padding-left: 0;
-  list-style-type: none;
 }
 
 .TalkList + .TalkList {
-  margin-top: 2em;
+  margin-top: 32px;
 }
 
 .TalkList::before {
@@ -90,9 +89,4 @@ body {
   content: "";
   border-right: dashed 3px var(--color-light);
   height: calc(100% - 2em);
-}
-
-.BookList {
-  padding-left: 0;
-  list-style-type: none;
 }
