@@ -11,5 +11,3 @@ deploy:
   project: $FIREBASE_PROJECT
 install:
   - npm install
-after_success:
-  - npm run lh -- https://shogosensui.com
