@@ -1,1 +1,1 @@
-# [shogosensui.com](https://shogosensui.com) [![Build Status](https://travis-ci.org/1000ch/shogosensui.com.svg?branch=master)](https://travis-ci.org/1000ch/shogosensui.com)
+# shogosensui.com ![Build and Deploy](https://github.com/1000ch/shogosensui.com/workflows/deploy/badge.svg?branch=master)
