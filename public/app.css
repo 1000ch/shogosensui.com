@@ -63,15 +63,15 @@ li time {
   height: 32px;
 }
 
-.TalkList {
+.Timeline {
   position: relative;
 }
 
-.TalkList + .TalkList {
+.Timeline + .Timeline {
   margin-top: 32px;
 }
 
-.TalkList::before {
+.Timeline::before {
   position: absolute;
   z-index: -1;
   top: -0.5em;
@@ -81,7 +81,7 @@ li time {
   font-size: 2em;
 }
 
-.TalkList::after {
+.Timeline::after {
   position: absolute;
   z-index: -1;
   top: 2em;
