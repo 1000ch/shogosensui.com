@@ -5,7 +5,7 @@
     "test": "stylelint public/*.css"
   },
   "devDependencies": {
-    "stylelint": "^13.6.0",
+    "stylelint": "^13.11.0",
     "stylelint-config-standard": "^20.0.0"
   },
   "stylelint": {
