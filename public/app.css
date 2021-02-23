@@ -61,7 +61,7 @@ li time {
   }
 }
 
-.AccountList a {
+.AccountList li {
   display: flex;
   place-items: center;
 }
