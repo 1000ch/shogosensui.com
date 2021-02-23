@@ -9,16 +9,24 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
-}
-
 body {
   margin: 0;
   color: var(--color-dark);
   font-family: "Noto Sans", sans-serif;
-  font-size: 1.6rem;
+  font-size: 16px;
   line-height: 1.6;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
 }
 
 ul[class],
@@ -53,40 +61,36 @@ li time {
   }
 }
 
-.AccountList {
+.AccountList a {
   display: flex;
+  place-items: center;
 }
 
 .AccountList img {
-  margin: 4px;
-  width: 32px;
-  height: 32px;
+  margin: 0 4px;
+  width: 24px;
+  height: 24px;
 }
 
-.Timeline {
-  position: relative;
+.Label {
+  margin: 2px;
+  padding: 2px 4px;
+  font-size: 0.8em;
+  border-radius: 0.25em;
 }
 
-.Timeline + .Timeline {
-  margin-top: 32px;
+.Label.-date {
+  background-color: #eee;
 }
 
-.Timeline::before {
-  position: absolute;
-  z-index: -1;
-  top: -0.5em;
-  right: 0;
-  content: attr(data-year);
-  color: var(--color-light);
-  font-size: 2em;
+.Label.-article {
+  background-color: pink;
 }
 
-.Timeline::after {
-  position: absolute;
-  z-index: -1;
-  top: 2em;
-  right: 2em;
-  content: "";
-  border-right: dashed 3px var(--color-light);
-  height: calc(100% - 2em);
+.Label.-story {
+  background-color: khaki;
+}
+
+.Label.-talk {
+  background-color: powderblue;
 }
