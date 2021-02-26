@@ -72,6 +72,22 @@ li time {
   height: 24px;
 }
 
+.BookImageList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.BookImageList li {
+  margin-right: 16px;
+}
+
+.BookImageList img {
+  width: 120px;
+  aspect-ratio: 35 / 50;
+  border: solid 1px var(--color-dark);
+}
+
 .Label {
   margin: 2px;
   padding: 2px 4px;
