@@ -9,10 +9,15 @@
   box-sizing: border-box;
 }
 
+html {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
 body {
   margin: 0;
   color: var(--color-dark);
-  font-family: "Noto Sans", sans-serif;
+  font-family: monospace, sans-serif;
   font-size: 16px;
   line-height: 1.6;
 }
