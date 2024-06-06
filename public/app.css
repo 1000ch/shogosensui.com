@@ -62,6 +62,7 @@ li time {
 @media (min-width: 540px) {
   .Avatar {
     float: right;
+    shape-outside: circle(50%);
     margin-left: 32px;
     margin-bottom: 32px;
   }
