@@ -1,0 +1,118 @@
+:root {
+  --color-dark: #444;
+  --color-light: #ddd;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+body {
+  margin: 0;
+  color: var(--color-dark);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  overflow-wrap: break-word;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+  list-style: none;
+}
+
+li time {
+  margin-right: 4px;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: end;
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  nav {
+    display: inline-flex;
+    gap: 0.5em;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.avatar {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  object-fit: cover;
+  float: right;
+  shape-outside: circle(50%);
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.book-image-list {
+  display: flex;
+  flex-flow: row wrap;
+
+  li {
+    margin-right: 0.5em;
+  }
+
+  img {
+    width: 120px;
+    aspect-ratio: 35 / 50;
+    border: solid 1px var(--color-dark);
+  }
+}
+
+.label {
+  margin: 2px;
+  padding: 2px 4px;
+  font-size: 0.8em;
+  border-radius: 0.25em;
+
+  &.label-date {
+    background-color: #eee;
+  }
+
+  &.label-article {
+    background-color: pink;
+  }
+
+  &.label-story {
+    background-color: khaki;
+  }
+
+  &.label-talk {
+    background-color: powderblue;
+  }
+}

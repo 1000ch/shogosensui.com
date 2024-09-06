@@ -1,0 +1,14 @@
+baseURL: "https://shogosensui.com"
+title: "shogosensui.com"
+footnotereturnlinkcontents: "↩"
+contentDir: "content"
+dataDir: "data"
+publishDir: "public"
+defaultContentLanguage: "ja"
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+    renderer:
+      unsafe: true
