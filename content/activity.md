@@ -6,6 +6,7 @@ title: Activity
 
 ### 2024
 
+- <time class="label label-date">2024-09-25</time> <span class="label label-article">寄稿</span> [三年間の関わりから見る PR TIMES エンジニアリングの変化](https://developers.prtimes.jp/2024/09/25/transition-of-prtimes-engineering/)
 - <time class="label label-date">2024-06-21</time> <span class="label label-talk">登壇</span> [技術責任者が語る！エンジニア採用において意識すべきポイント〜国内、海外人材の違い〜](https://prtimes.jp/main/html/rd/p/000000099.000026700.html)
 - <time class="label label-date">2024-06-14</time> <span class="label label-story">出演</span> [Web標準技術の最新動向を、泉水さん (1000ch) に聞いてきた！](https://www.youtube.com/watch?v=sEBA6KpiwHM)
 - <time class="label label-date">2024-04-23</time> <span class="label label-talk">登壇</span> [Engineer Guild Lightning Talk vol.2](https://howtv.connpass.com/event/316547/) <small>[[講演資料](https://1000ch.github.io/slides/dma-affects-apple/)]</small>
