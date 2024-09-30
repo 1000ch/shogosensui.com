@@ -57,7 +57,12 @@ header {
 
   nav {
     display: inline-flex;
+    align-items: center;
     gap: 0.5em;
+  }
+
+  a {
+    line-height: 0;
   }
 }
 
@@ -77,6 +82,20 @@ header {
   shape-outside: circle(50%);
   margin-left: 1em;
   margin-bottom: 1em;
+}
+
+.account-list {
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25em;
+    line-height: 0;
+  }
+
+  img {
+    width: 16px;
+    height: 16px;
+  }
 }
 
 .book-image-list {
