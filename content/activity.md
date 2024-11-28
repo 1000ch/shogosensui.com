@@ -6,6 +6,7 @@ title: Activity
 
 ### 2024
 
+- <time class="label label-date">2024-12-10</time> <span class="label label-talk">登壇</span> [株式会社ユーザベース×株式会社ZOZO×株式会社PR TIMES 3社合同フロントエンド勉強会](https://prtimes.connpass.com/event/335335/)
 - <time class="label label-date">2024-10-16</time> <span class="label label-story">取材</span> [Sensuiさんオススメ！キャリアを考える時に読んで欲しい本4選 | TechTrain](https://techtrain.dev/media/articles/0w0jfp7cp0)
 - <time class="label label-date">2024-10-07</time> <span class="label label-story">取材</span> [Sensuiさんが語る、キャリアへの向き合い方 | TechTrain](https://techtrain.dev/media/articles/8yhwmacwkufx)
 - <time class="label label-date">2024-09-25</time> <span class="label label-article">寄稿</span> [三年間の関わりから見る PR TIMES エンジニアリングの変化](https://developers.prtimes.jp/2024/09/25/transition-of-prtimes-engineering/)
