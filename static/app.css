@@ -12,6 +12,7 @@
 html {
   word-wrap: break-word;
   overflow-wrap: break-word;
+  text-underline-offset: 0.3em;
 }
 
 body {
@@ -33,6 +34,12 @@ h2 {
 
 h3 {
   font-size: 1.25em;
+}
+
+a:any-link {
+  text-decoration: underline;
+  text-decoration-color: oklch(67% 0 0deg);
+  text-decoration-thickness: 1px;
 }
 
 ul[class],
