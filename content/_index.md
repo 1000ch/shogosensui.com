@@ -12,7 +12,7 @@ SIer での受託開発を経て、株式会社サイバーエージェントに
 ## Accounts
 
 - [![](/img/x.svg) x.com/1000ch](https://x.com/1000ch)
-- [![](/img/bluesky.svg) 1000ch.bsky.social](https://bsky.app/profile/1000ch.bsky.social)
+- [![](/img/bluesky.svg) 1000ch.net](https://bsky.app/profile/1000ch.net)
 - [![](/img/github.svg) github.com/1000ch](https://github.com/1000ch)
 - [![](/img/instagram.svg) instagram.com/1000ch](https://instagram.com/1000ch)
 - [![](/img/facebook.svg) facebook.com/1000ch](https://facebook.com/1000ch)
