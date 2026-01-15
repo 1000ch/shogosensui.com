@@ -4,7 +4,7 @@ on:
     branches:
       - main
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -12,21 +12,9 @@ jobs:
         with:
           hugo-version: '0.133.1'
       - run: hugo --minify
-      - uses: actions/upload-artifact@v4
+      - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          name: public
-          path: public
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
-        with:
-          name: public
-          path: public
-      - uses: w9jds/firebase-action@master
-        with:
-          args: deploy --only hosting --project shogosensui-com
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_SHOGOSENSUI_COM }}
+          channelId: live
+          projectId: shogosensui-com
