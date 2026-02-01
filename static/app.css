@@ -116,7 +116,7 @@ header {
   }
 
   img {
-    width: 120px;
+    width: 105px;
     aspect-ratio: 35 / 50;
     border: solid 1px var(--color-dark);
   }
