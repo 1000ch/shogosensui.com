@@ -4,11 +4,13 @@ title: Book
 
 ## Books
 
+- [![評価できない社会](/img/unassessable-society.jpg)](https://www.amazon.co.jp/dp/B0GKQHRYGW?tag=1000ch-22)
 - [![超速! Webページ速度改善ガイド (WEB+DB PRESS plus)](/img/webperf-guide.jpg)](https://amzn.to/2iox4EP)
 - [![よくわかるWeb Components](/img/web-components-book.jpg)](https://amzn.to/2Oc3IIJ)
 - [![Fictions](/img/fictions.jpg)](https://amzn.to/2ys8GpZ)
 { .book-image-list }
 
+- <time class="label label-date">2026-01-31</time> [評価できない社会](https://www.amazon.co.jp/dp/B0GKQHRYGW?tag=1000ch-22) 測ろうとする意思と、その不成立
 - <time class="label label-date">2021-07-31</time> [WEB+DB PRESS総集編[Vol.1~120]](https://www.amazon.co.jp/dp/4297122154?tag=1000ch-22) 書き下ろし特別企画「進化するプログラミング言語の魅力」JavaScript（技術評論社）
 - <time class="label label-date">2018-10-08</time> [よくわかるWeb Components](https://amzn.to/2Oc3IIJ) 再利用可能なコンポーネントを Web 標準技術で実現する Web Components について、構成する技術要素、実際の使い方、導入戦略などの観点から解説しています。
 - <time class="label label-date">2018-10-08</time> [Fictions](https://amzn.to/2ys8GpZ) この作品はフィクションであり、実在する、人物, 団体とは一切関係ありません。ですが、このポエムがいつかの自分や読者の怒りを閉じ込めて、より良い開発現場を目指すための「何か」になることを願って、今日も書いています。
