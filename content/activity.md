@@ -4,6 +4,11 @@ title: Activity
 
 ## Activities
 
+### 2026
+
+- <time class="label label-date">2026-03-26</time> <span class="label label-talk">登壇</span> [VPoE/CTOに繋がる帰納的なキャリア形成](https://hireroo.connpass.com/event/385810/)
+{ .timeline }
+
 ### 2024
 
 - <time class="label label-date">2024-12-10</time> <span class="label label-talk">登壇</span> [株式会社ユーザベース×株式会社ZOZO×株式会社PR TIMES 3社合同フロントエンド勉強会](https://prtimes.connpass.com/event/335335/)
