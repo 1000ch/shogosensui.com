@@ -6,6 +6,7 @@ title: Activity
 
 ### 2026
 
+- <time class="label label-date">2026-09-11</time> <span class="label label-talk">登壇</span> [Developers Summit 2026 FUKUOKA](https://event.shoeisha.jp/devsumi/20260911)
 - <time class="label label-date">2026-09-08</time> <span class="label label-talk">登壇</span> [Enterprise IT Conference 2026](https://bd.techplay.jp/enterprise-it-conference-2026)
 - <time class="label label-date">2026-08-21</time> <span class="label label-talk">登壇</span> [Developers Summit 2026 KANSAI](https://event.shoeisha.jp/devsumi/20260821)
 - <time class="label label-date">2026-07-17</time> <span class="label label-talk">登壇</span> [【技術経営研究会#1】AI 時代の「いま」各社で“活躍できている“エンジニアの定義とは](https://peatix.com/event/5056051)
